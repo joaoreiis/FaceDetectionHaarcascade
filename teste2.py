@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 
-#cap = cv2.VideoCapture('http://138.118.33.201/mjpg/video.mjpg')
 cap = cv2.VideoCapture(0)
 
 face_cascade = cv2.CascadeClassifier('haarcascade/haarcascade_frontalface_default.xml')
